@@ -87,3 +87,26 @@ ul li {
   font-size: 14px;
   margin-top: 4px;
 }
+.hover-heading span {
+  transition: color 0.3s ease;
+}
+
+
+.hover-heading:hover span:nth-child(1) { color: #e63946; } 
+.hover-heading:hover span:nth-child(2) { color: #f1fa8c; } 
+.hover-heading:hover span:nth-child(3) { color: #00b894; } 
+.hover-heading:hover span:nth-child(4) { color: #6c5ce7; } 
+.hover-heading:hover span:nth-child(5) { color: #fd79a8; } 
+.hover-heading:hover span:nth-child(6) { color: #ffffff; } 
+.hover-heading:hover span:nth-child(7) { color: #fab1a0; } 
+.hover-heading:hover span:nth-child(8) { color: #81ecec; } 
+.hover-heading:hover span:nth-child(9) { color: #ffeaa7; } 
+.hover-heading:hover span:nth-child(10) { color: #a29bfe; }
+.hover-heading:hover span:nth-child(11) { color: #55efc4; }
+.hover-heading:hover span:nth-child(12) { color: #fdcb6e; }
+
+.hover-heading span {
+  display: inline-block;
+  letter-spacing: 0;
+  margin: 0;
+}
